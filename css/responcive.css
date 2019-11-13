@@ -1,0 +1,89 @@
+@media screen and (max-width: 980px) {
+  .logo_area{
+	width:100%;
+	float:none;
+	text-align:center;
+}
+.logo_area img{
+    width:30%;
+    margin-top: 27px;
+}
+.login_area{
+	    width: 455px;
+       margin-left: 119px;
+       margin-right: 119px; 
+}
+.login_area form{
+	  float: none;
+      margin:auto;
+	  
+}
+/*end header area*/
+
+/*start singup area*/
+.left_side{
+	width:100%;
+	float:none;
+}
+.right_side{
+	width:100%;
+	float:none;
+}
+.left_side{
+	width:100%;
+}
+
+/*end singup area*/
+
+}
+
+/* On screens that are 700px wide or less, the background color is olive */
+@media screen and (max-width: 700px) {
+  .login_area{
+	   width:100%;
+       padding:auto;
+}
+.login_area .email,.login_area .password,.login_area .login{
+    float:none;
+    
+	
+}
+/*end header area*/
+
+/*start singup area*/
+
+/*end singup area*/
+@media screen and (max-width: 500px) {
+  .login_area{
+	   width:100%;
+	   border:1px solid red;
+       padding:auto;
+}
+.content{
+	width:80px%;
+	margin:auto;
+	max-width:1000px;
+	
+}
+.login_area .email,.login_area .password,.login_area .login{
+    float: none;
+    width:100%;
+	
+}
+.login_area input[type="text"],.login_area input[type="password"]{
+	 border: 1px solid #000;
+    padding: 2px 3px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+	
+}
+.login_area form .login input[type="submit"]{
+	color:#fff;
+	background-color: #4267b2;
+    border:1px solid #29487d;
+	margin-top: 15px;
+	margin:auto;
+	
+}
+}
